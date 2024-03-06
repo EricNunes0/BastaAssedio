@@ -1,0 +1,155 @@
+#article-first {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #304a5a;
+}
+
+#article-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#article-content {
+    width: 40%;
+}
+
+#article-second {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #ebf0f6;
+}
+
+.article-second-image-divs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#article-third {
+    width: 100dvw;
+    height: 300px;
+    background-color: #ebf0f6;
+    background-image: linear-gradient(180deg, #ebf0f6 0%, #d03070 100%);
+}
+#article-third-content {
+    width: 95%;
+    height: 100%;
+    background-color: #304a5a;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float: right;
+}
+
+#article-forth {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #d03070;
+}
+
+#article-forth-law {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#law-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+}
+
+#law-2 {
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    width: 275px;
+    rotate: 45deg;
+    animation: Law2 2s ease-in infinite;
+}
+@keyframes Law2 {
+    50% {
+        rotate: -20deg;
+        transform: translate(-95px, 40px);
+    }
+}
+
+#article-fifth {
+    width: 100dvw;
+    height: 300px;
+    background-color: #ebf0f6;
+    background-image: linear-gradient(0deg, #e0b050 0%, #d03070 100%);
+}
+#article-fifth-content {
+    width: 95%;
+    height: 100%;
+    background-color: #304a5a;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+}
+
+#article-sixth {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #e0b050;
+}
+
+#article-final {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #ebf0f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    #article-flex {
+        justify-content: center;
+    }
+
+    #article-content {
+        width: 90%;
+    }
+
+    #article-first {
+        height: unset;
+    }
+
+    #article-second {
+        height: unset;
+    }
+
+    #article-third {
+        height: unset;
+    }
+
+    #article-third-content {
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        float: unset;
+    }
+
+    #article-third {
+        height: unset;
+    }
+
+    #article-forth-law {
+        transform: scale(0.75);
+    }
+
+    #article-fifth-content {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        float: unset;
+    }
+}

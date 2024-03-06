@@ -1,0 +1,14 @@
+#footer-main {
+    width: 100dvw;
+    background-color: #304a5a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+#footer-article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
