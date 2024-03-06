@@ -69,7 +69,7 @@ export default function Article() {
                     <div id="article-flex">
                         <div className="article-content">
                             <ArticleTitle>Lei nº14. 540/2023</ArticleTitle>
-                            <ArticleParagraph>O grande trunfo da Lei nº14. 540/2023 é seu foco na prevenção de atos contra a dignidade sexual por meio de distribuição de material informativo e implementação de verdadeiro programa educativo voltado à capacitação dos funcionários e agentes dos setores obrigados</ArticleParagraph>
+                            <ArticleParagraph>O grande trunfo da Lei nº14. 540/2023 é seu foco na prevenção de atos contra a dignidade sexual por meio de distribuição de material informativo e implementação de verdadeiro programa educativo voltado à capacitação dos funcionários e agentes dos setores obrigados.</ArticleParagraph>
                         </div>
                         <aside id="article-right">
                             <ArticleFifthImage alt="Lei nº14. 540/2023" src="/images/law-3.png"></ArticleFifthImage>
@@ -81,12 +81,8 @@ export default function Article() {
                 <div id="article-flex">
                     <div className="article-content" id="sixth">
                         <ArticleTitle theme="dark">Denuncie!</ArticleTitle>
-                        <ArticleParagraph theme="dark">Dependendo da empresa em que você trabalha, podem existir canais de denúncias internas. Grandes empresas geralmente possuem um canal de denúncias específico, muitas vezes até externo, um conselho de ética ou algo do tipo. É importante que você registre os fatos nesses canais, sempre guardando comprovação do protocolo da denúncia. Além dos canais de denúncias específicos, é interessante envolver a diretoria da empresa e o setor pessoal, sempre que possível. Lembre-se apenas de sempre registrar tudo. Caso não exista uma maneira de protocolar e formalizar a denúncia, busque sempre gravar as conversas.</ArticleParagraph>
+                        <ArticleParagraph theme="dark">Dependendo da empresa em que você trabalha, podem existir canais de denúncias internas. Grandes empresas geralmente possuem um canal de denúncias específico, muitas vezes até externo, um conselho de ética ou algo do tipo. É importante que você registre os fatos nesses canais, sempre guardando comprovação do protocolo da denúncia. Além dos canais de denúncias específicos, é interessante envolver a diretoria da empresa e o setor pessoal, sempre que possível. Lembre-se apenas de sempre registrar tudo. Caso não exista uma maneira de protocolar e formalizar a denúncia, busque gravar as conversas.</ArticleParagraph>
                     </div>
-                    {/*<div className="article-content">
-                        <ArticleTitle theme="dark">Título 7</ArticleTitle>
-                        <ArticleParagraph theme="dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis, nisi ac mollis efficitur, est mi dictum lorem, quis sodales arcu ligula id lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque odio erat, mollis non orci eget, blandit dapibus ex. Ut vestibulum ac enim vel malesuada. Quisque lacinia ultricies aliquam. Vestibulum nec feugiat orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla sed sollicitudin dui. Donec porttitor dui eget arcu rhoncus tincidunt.</ArticleParagraph>
-                    </div>*/}
                 </div>
             </div>
             <div id="article-final">
