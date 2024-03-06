@@ -5,6 +5,7 @@ import { IntroImage } from "./IntroImage";
 import { IntroSubtitle } from "./IntroSubtitle";
 import { IntroSup } from "./IntroSup";
 import { IntroTitle } from "./IntroTitle";
+import ScrollScreenTo from "../../functions/ScrollScreenTo";
 
 export default function Intro() {
     return (
@@ -12,15 +13,14 @@ export default function Intro() {
             <IntroBackground></IntroBackground>
             <article id="intro-article">
                 <div id="intro-texts-div">
-                    <IntroSup>Texto acima do título</IntroSup>
-                    <IntroTitle>Basta Assédio</IntroTitle>
-                    <IntroSubtitle>Sub mensagem um pouco maior que o título</IntroSubtitle>
+                    <IntroSup>Na logística, depois do "não",</IntroSup>
+                    <IntroTitle>Tudo é Assédio!</IntroTitle>
                     <div id="intro-button-div">
-                        <IntroButton>Conhecer</IntroButton>
+                        <IntroButton onClick = {() => {ScrollScreenTo('article-first')}}>Saber mais</IntroButton>
                     </div>
                 </div>
                 <aside id="intro-aside">
-                    <IntroImage alt="Mulheres" src="/images/intro.png"></IntroImage>
+                    <IntroImage alt="Mulheres" src="/images/logo.png"></IntroImage>
                 </aside>
             </article>
         </main>

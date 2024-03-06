@@ -12,11 +12,11 @@ export default function Footer() {
                     <FooterTitle>Alunos:</FooterTitle>
                     <FooterAluno>Alaira</FooterAluno>
                     <FooterAluno>Eric Nunes</FooterAluno>
-                    <FooterAluno>Camille</FooterAluno>
+                    <FooterAluno>Camile</FooterAluno>
                     <FooterAluno>Carlos</FooterAluno>
                     <FooterAluno>Karine</FooterAluno>
                     <FooterAluno>Maria Eduarda</FooterAluno>
-                    <FooterAluno>William</FooterAluno>
+                    <FooterAluno>Willian</FooterAluno>
                 </div>
             </article>
         </footer>

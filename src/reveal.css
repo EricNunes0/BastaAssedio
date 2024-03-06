@@ -1,0 +1,20 @@
+@keyframes RevealTextTop {
+    0% {
+        transform: translate(0px, -20px);
+        opacity: 0;
+    }
+}
+
+@keyframes RevealTextLeft {
+    0% {
+        transform: translate(-20px);
+        opacity: 0;
+    }
+}
+
+@keyframes RevealTextRight {
+    0% {
+        transform: translate(20px);
+        opacity: 0;
+    }
+}

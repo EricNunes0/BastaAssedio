@@ -7,8 +7,8 @@ const IntroImageAnimation = keyframes`
 `;
 
 export const IntroImage = styled.img`
-    width: 480px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border: unset;
     border-radius: 50px;
     animation: ${IntroImageAnimation} 3s ease-in-out infinite;

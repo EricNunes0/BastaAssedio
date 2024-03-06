@@ -19,4 +19,14 @@ export const ArticleImage = styled.img`
         width: 200px;
         height: 200px;
     };
+
+    @media screen and (max-width: 480px) {
+        margin: 20px 0;
+    };
+    
+    @media screen and (max-width: 480px) {
+        &[id="first"] {
+            display: none;
+        }
+    };
 `;

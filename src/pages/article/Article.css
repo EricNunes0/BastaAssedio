@@ -13,8 +13,9 @@
     flex-wrap: wrap;
 }
 
-#article-content {
+.article-content {
     width: 40%;
+    transition: all 0.3s ease;
 }
 
 #article-second {
@@ -110,12 +111,30 @@
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    #article-third {
+        height: unset;
+    }
+
+    #article-forth {
+        height: unset;
+    }
+
+    #article-fifth {
+        height: unset;
+    }
+
+    #article-sixth {
+        height: unset;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #article-flex {
         justify-content: center;
     }
 
-    #article-content {
+    .article-content {
         width: 90%;
     }
 
